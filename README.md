@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://github.com/LoneBrokeBoy/Blog-preview-card/assets/91601992/9f520014-1c96-4f02-8b55-db3c49f2d389)
+![image](https://github.com/TwinkleByte/Blog-preview-card/assets/91601992/9f520014-1c96-4f02-8b55-db3c49f2d389)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -37,7 +37,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/LoneBrokeBoy/Blog-preview-card)
+- Solution URL: [Solution](https://github.com/TwinkleByte/Blog-preview-card)
 - Live Site URL: [Live Site](https://lonebrokeboy.github.io/Blog-preview-card/)
 
 ## My process
@@ -77,5 +77,5 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Frontend Mentor - [@LoneBrokeBoy](https://www.frontendmentor.io/profile/LoneBrokeBoy)
-- Github - [@LoneBrokeBoy](https://github.com/LoneBrokeBoy)
+- Frontend Mentor - [@TwinkleByte](https://www.frontendmentor.io/profile/TwinkleByte)
+- Github - [@TwinkleByte](https://github.com/TwinkleByte)
