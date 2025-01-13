@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 800;
+    font-style: normal;
+}
+:root {
+    --background: #f4d04e;
+    --card-bg: #ffffff;
+    --text-color: #121212;
+    --text-opposite-color: #f4d04e;
+    --button-color: #f4d04e;
+    --button-opposite-color: #121212;
+    --border-color: #121212;
+    --description-txt-color: #808080;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Figtree, sans-serif;
+}
+body {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: var(--card-bg);
+    display: grid;
+    grid-template-rows: 231px 56px 33px 41px 90px 64px;
+    border: solid 1px var(--border-color);
+    width: 382px;
+    height: 514px;
+    margin-top: 217px;
+    border-radius: 25px;
+    box-shadow: 8px 8px black;
+    transition: box-shadow 0.10s ease-in-out;
+}
+.card:hover {
+    box-shadow: 17px 17px black;
+}
+.article-img {
+    border-radius: 15px;
+    margin: 22px 0px 0px 23px;
+    margin-left: 23px;
+    margin-top: 22px;
+}
+.button1 {
+    background-color: var(--background);
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 5px 9.5px 5px 9.5px;
+    margin: 15px 0px 0px 22px;
+    transition: all 0.50s;
+}
+.button1:hover {
+    background-color: var(--button-opposite-color);
+    color: var(--button-color);
+}
+.date {
+    margin-left: 23px;
+}
+.title {
+    width: max-content;
+    font-weight: 800;
+    font-size: 1.6rem;
+    margin-left: 23px;
+    transition: color 0.30s;
+    cursor: pointer;
+}
+.title:hover {
+    color: var(--background);
+}
+.description {
+    color: var(--description-txt-color);
+    width: 300px;
+    line-height: 25px;
+    margin-left: 23px;
+}
+.author-grid {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+.author-img {
+    width: 30px;
+    margin: 10px 0px 0px 23px;
+}
+.author-name {
+    margin: 14px 0px 0px 25px;
+    font-weight: 700;
+    width: max-content;
+    transition: all 0.50s;
+}
+.author-name:hover {
+    color: var(--text-opposite-color);
+    cursor: pointer;
+}
+
+@media (max-width: 415px) {
+    .article-img {
+        width: 86%;
+    }
+    .card {
+        width: 325px;
+        height: 499px;
+    }
+    .card:hover {
+        box-shadow: 12px 12px black;
+    }
+}
