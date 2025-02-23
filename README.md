@@ -38,7 +38,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Solution](https://github.com/TwinkleByte/Blog-preview-card)
-- Live Site URL: [Live Site](https://lonebrokeboy.github.io/Blog-preview-card/)
+- Live Site URL: [Live Site](https://twinklebyte.github.io/Blog-preview-card/)
 
 ## My process
 
